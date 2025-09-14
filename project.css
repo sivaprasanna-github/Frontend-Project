@@ -1,0 +1,590 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.el1{
+    display: flex;
+    justify-content: space-between;
+    padding:16px 24px;
+    background-color: #0F172B;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h1{
+    color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-size: 600px;
+    margin-right: 45%;
+}
+ul{
+    display: flex;
+    column-gap: 20px;
+}
+.list{
+    color: white;
+    font-family:"Heebo ", sans-serif;
+    background-color: #FEA116;
+    padding: 8px 24px;
+    width: 180px;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.list {
+    color: white;
+    font-family: "Heebo", sans-serif;
+    background-color: #FEA116;
+    padding: 8px 24px;
+    width: 180px;
+    text-align: center;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+#menu-toggle {
+    display: none;
+}
+
+.el2{
+    display: flex;
+    column-gap: 60px;
+    background-color:#0F172B;
+    color: white;
+    padding: 50px 140px;   
+}
+.A{
+    color: white;
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+}
+.el3{
+    display: flex;
+    column-gap: 30px;
+    padding: 50px 50px 50px 50px;
+    background-color: whitesmoke;
+}
+.B{
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    padding: 30px 30px;
+}
+.B:hover{
+background-color: #FEA116;
+}
+
+h5{
+font-size: 20px;
+font-family: "Nunito", sans-serif;
+}
+h6{
+font-size: 15px;
+font-family: "Nunito", sans-serif;
+}
+h1{
+font-family: "Nunito", sans-serif;
+font-size: 30px;
+}
+.el4{
+display: flex; 
+padding: 50px;
+column-gap: 50px;
+}
+.C{
+display: grid;
+grid-template-columns: 50% 50%;
+column-gap: 5px;
+}
+.D{
+display: flex;
+column-gap: 15px;
+}
+.E{
+display: flex;
+column-gap: 100px;
+}
+h5{
+font-family: cursive;
+color: #FEA116;
+}
+.el5{
+padding: 50px;
+}
+.el6{
+display: flex;
+}
+.H{
+background-color: #0F172B; 
+height: 450px; 
+padding: 30px 50px;
+width: 100%;
+}    
+input[type="text"],input[type="email"],input[type= "datetime-local"],select{
+height: 50px;
+width: 250px;
+margin-right: 20px;
+}
+.I{
+    color: white;
+    font-family:"Heebo ", sans-serif;
+    background-color: #FEA116;
+    width: 535px; 
+    padding: 20px; 
+}
+.J{
+    color: white;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+.el7{
+     padding:30px;
+    background-color: whitesmoke;
+}
+.K{
+    display: flex;
+    column-gap: 15px;  
+    justify-content: space-evenly; 
+}
+.L{
+    background-color: white;
+    padding: 30px;
+}
+.M{
+    transition: transform 0.5s;
+}
+.el8{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.N{
+    display: flex;
+    column-gap: 15px;
+} 
+.O{
+    background-color: white;
+    padding: 50px;
+} 
+.P{
+    display: flex;
+    column-gap: 15px;
+}    
+.Q{
+    border-radius: 50%;
+   
+} 
+.M:hover{
+     transform: scale(1.1);
+}
+.el9{
+    background-color: #0F172B;
+    padding: 70px;
+}  
+.R{
+    color: white;
+}  
+.S{
+  display: flex;
+  column-gap: 60px;
+}  
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #FEA116;
+    font-family:"Heebo ", sans-serif;
+    color: white;
+} 
+.el10{
+    background-color: #0F172B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 60px;
+}  
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.menu-tabs a {
+    background-color: #FEA116;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.menu-tabs a:hover {
+    background-color: #F58F00;
+}
+.tab-content {
+    display: none;
+}
+.tab-content:target {
+    display: block;
+ 
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+    row-gap: 20px;
+    padding: 50px;
+}
+.U{
+    display: flex;
+    column-gap: 30px;
+} 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+} 
+@keyframes moveRight {
+from {
+transform: translateX(-100%); 
+}
+to {
+transform: translateX(0); 
+}
+} 
+.img{
+    animation: rotate 50s linear infinite;
+} 
+.a{
+    overflow: hidden;
+    border-radius: 50%;
+}   
+.B:hover h5,.B:hover i,.B:hover p{
+        color: white !important;
+       }   
+      
+       .O:hover ,.N:hover{
+         color: white !important; 
+       }
+     .O:hover{
+         background-color: #FEA116;
+       }
+.e{
+    display: flex;
+    justify-content: space-between;
+}     
+.c{
+    display: flex;
+    column-gap: 30px;
+  }   
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: #FEA116;
+}
+.f{
+    animation: moveRight 1s ease-out forwards;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-menu {
+        display: none;
+        column-gap: 30px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #0F172B;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    .list{
+        display: none;
+    }
+    #menu-toggle:checked + label + nav .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 576px) {
+.el2 {
+flex-direction: column;
+column-gap: 20px;
+padding: 30px;
+text-align: center;
+}
+
+.el2 img {
+width: 80%;
+height: auto;
+margin-top: 20px;
+}
+
+.A {
+font-size: 36px;
+}
+
+.list {
+font-size: 20px;
+padding: 15px;
+}
+}
+
+@media screen and (max-width: 576px) {
+.el3 {
+flex-direction: column;
+padding: 20px;
+align-items: center; /* Center items horizontally */
+}
+
+.B {
+width: 100%;
+max-width: 400px;
+margin-bottom: 20px; /* Add space between items */
+height: auto; /* Let height adjust based on content */
+   }
+}
+@media screen and (max-width: 576px) {
+.el4 {
+flex-direction: column;
+padding: 20px;
+column-gap: 0;
+align-items: center;
+text-align: center;
+}
+
+.C {
+    grid-template-columns: 50% 50%;
+    row-gap: 10px;
+    justify-items: center;
+    }
+
+.C img {
+width: 100%;
+height: auto;
+}
+.E {
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+    
+    .D {
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+
+.list {
+width: 100%;
+max-width: 180px;
+}
+}
+
+
+@media screen and (max-width: 576px) {
+.menu-items {
+grid-template-columns: 100%;
+padding: 30px;
+}
+
+.menu-tabs a {
+padding: 8px 16px;
+margin: 0 5px;
+}
+
+.el5 {
+padding: 30px;
+
+}
+}
+
+@media screen and (max-width: 576px){
+.el6{
+flex-direction: column;
+align-items: center;
+}
+.el6 img{
+    max-width: 100%; 
+    height: auto;
+    }
+.H{
+width: 100%;
+height: auto;
+padding: 20px;
+}
+input[type="text"], input[type="email"], input[type="datetime-local"], select{
+width: 100%;
+margin-right: 0;
+margin-bottom: 15px;
+}
+textarea{
+width: 100%;
+}
+.I{
+width: 100%;
+text-align: center;
+}
+}
+
+.K {
+    display: flex;
+    column-gap: 15px;
+    }
+    
+    .L {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    }
+    
+    .a {
+    overflow: hidden;
+    border-radius: 50%;
+    }     
+
+@media screen and (max-width: 576px) {
+.K {
+display: grid;
+grid-template-columns: 1fr;
+row-gap: 15px;
+}
+.L {
+padding: 15px;
+}
+} 
+.el8 {
+background-color: whitesmoke;
+padding: 40px;
+}
+
+.N {
+display: flex;
+column-gap: 15px;
+}
+
+.O {
+background-color: white;
+padding: 50px;
+flex-basis: 30%; 
+}
+
+.P {
+display: flex;
+column-gap: 15px;
+/* flex-wrap: wrap; */
+justify-content: space-between; 
+}
+
+h5 {
+font-family: cursive;
+color: #FEA116;
+}
+
+h6 {
+font-size: 15px;
+font-family: "Nunito", sans-serif;
+}
+
+h1 {
+font-family: "Nunito", sans-serif;
+font-size: 30px;
+} 
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+.O {
+padding: 40px;
+flex-basis: 45%; 
+}
+}
+
+@media screen and (max-width: 768px) {
+.O {
+padding: 30px;
+flex-basis: 100%;
+margin-bottom: 20px; 
+}
+} 
+
+@media screen and (max-width: 576px) {
+.O {
+padding: 20px;
+flex-basis: 100%;
+}
+
+.N img {
+width: 40px;
+height: 40px;
+}
+
+h1 {
+font-size: 24px;
+}
+
+h6 {
+font-size: 14px;
+}
+}
+@media screen and (max-width: 576px) {
+.S {
+flex-direction: column; /* Stack the columns vertically */
+row-gap: 30px; /* Add space between rows */
+}
+.el9 {
+padding: 40px 20px; /* Adjust padding for smaller screens */
+}
+input[type="email"] {
+width: 100%; /* Make the input field full-width */
+}
+button[type="button"] {
+width: 100%; /* Make the button full-width */
+margin-top: 10px; /* Add margin for spacing */
+}
+h5, p {
+    text-align: center; 
+    }
+}
+@media screen and (max-width: 576px) {
+.el10 {
+flex-direction: column; /* Stack items vertically */
+align-items: center; /* Center-align the content */
+height: auto; /* Adjust height for stacking */
+text-align: center; /* Center text alignment for smaller screens */
+}
+
+.U {
+flex-direction: column; /* Stack links vertically */
+row-gap: 10px; /* Add spacing between links */
+margin-top: 10px; /* Add margin to separate from the text above */
+}
+}
